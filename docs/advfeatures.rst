@@ -87,4 +87,4 @@ HangFire is build to be as generic as possible. You can extend the following par
 * state changing process;
 * job activation process.
 
-Some of core components are made as extensions: ``QueueAttribute``, ``PreserveCultureAttribute``, ``RetryAttribute``, ``SqlServerStorage``, ``RedisStorage``, ``NinjectJobActivator``, ``AutofacJobActivator``, ``ScheduledState``.
+Some of core components are made as extensions: ``QueueAttribute``, ``PreserveCultureAttribute``, ``AutomaticRetryAttribute``, ``SqlServerStorage``, ``RedisStorage``, ``NinjectJobActivator``, ``AutofacJobActivator``, ``ScheduledState``.
